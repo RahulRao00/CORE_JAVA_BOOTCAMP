@@ -1,0 +1,11 @@
+# IntelliJ files
+.idea/
+*.iml
+
+# Compiled class files
+out/
+*.class
+
+# OS junk files
+.DS_Store
+Thumbs.db
