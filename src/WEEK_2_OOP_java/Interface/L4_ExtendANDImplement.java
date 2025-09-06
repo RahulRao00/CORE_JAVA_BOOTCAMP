@@ -1,4 +1,4 @@
-
+package WEEK_2_OOP_java.Interface;
 
 // A class can Implement an interface and also Extend another class 
 // First extend then implement follow this order 

@@ -1,9 +1,11 @@
+package WEEK_2_OOP_java.Abstraction;
 
-// class cant be abstract and final together 
+
+// class can't be abstract and final together
 // both are against each other
 // because if class is final that means we cant change anything in that class 
-// if class is abstract then we have to must extend provide the body to the method 
-// means final -> no change  &   abstract -> change must 
+// if class is abstract then we must have to  extend that cals  provide the body to their method
+// means final class -> no change  and   abstract class  -> change must
 
 
 abstract  class Bird {

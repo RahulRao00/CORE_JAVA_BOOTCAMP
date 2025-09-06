@@ -1,4 +1,4 @@
-package src.WEEK_8_OOP_java.Inheritance;
+package WEEK_2_OOP_java.Inheritance;
 
 // cyclic Inheritance not allowed 
 class Some1  extends Some2 {

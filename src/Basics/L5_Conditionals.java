@@ -9,7 +9,7 @@ public class L5_Conditionals {
                 System.out.println("✅ Eligible for voting.");
             }
 
-            // 🔹 IF-ELSE
+            //  IF-ELSE
             boolean isIndian = true;
             if (isIndian) {
                 System.out.println("✅ Indian citizen.");
@@ -17,7 +17,7 @@ public class L5_Conditionals {
                 System.out.println("❌ Not an Indian citizen.");
             }
 
-            // 🔹 IF-ELSE-IF
+            //  IF-ELSE-IF
             int marks = 75;
             if (marks >= 90) {
                 System.out.println("Grade: A+");
@@ -29,7 +29,7 @@ public class L5_Conditionals {
                 System.out.println("Grade: C or below");
             }
 
-            // 🔹 NESTED IF
+            //  NESTED IF
             boolean hasID = true;
             int voteAge = 20;
 
@@ -43,7 +43,7 @@ public class L5_Conditionals {
                 System.out.println("❌ No valid ID.");
             }
 
-            // 🔹 SWITCH CASE
+            //  SWITCH CASE
             int day = 4;
 
             switch (day) {
@@ -64,7 +64,7 @@ public class L5_Conditionals {
                     System.out.println("Weekend or invalid day");
             }
 
-            // 🔸 Edge: switch without break (fall-through)
+            //  Edge: switch without break (fall-through)
             int code = 2;
             switch (code) {
                 case 1:
@@ -78,7 +78,7 @@ public class L5_Conditionals {
                     System.out.println("Unknown");
             }
 
-            // 🔸 switch with String
+            //  switch with String
             String browser = "chrome";
 
             switch (browser.toLowerCase()) {

@@ -1,4 +1,4 @@
-package src.WEEK_8_OOP_java.Encapsulation;
+package WEEK_2_OOP_java.Encapsulation;
 // package Encapsulation;
 
 class BankAccount {
@@ -22,7 +22,6 @@ class BankAccount {
         return bal;
     }
 }
-
 
 public class L0_BasicENC {
 

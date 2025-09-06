@@ -1,10 +1,11 @@
-// package src.WEEK_8_OOP_java.Abstraction;
+package WEEK_2_OOP_java.Abstraction;// package src.WEEK_8_OOP_java.Abstraction;
 
 
 // An abstract class whose object can't be created 
-// if a single variable is abstract then java force you to make class abstract 
+// if a single variable/Method  is abstract then java force you to make class abstract
 // So that you can't create object of that class 
-// Because that particular abstract method is incomplete 
+// Because that particular abstract method is incomplete only signature is defined no implementation
+
 abstract class Plane {
 
     abstract void takeOff();
@@ -20,7 +21,7 @@ class CargoPlane extends Plane {
     }
 
     void fly() {
-        System.out.println("Cargo is Flying at Low Height... ");
+        System.out.println("CargoPlane is Flying at Low Height... ");
     }
 
     void land() {

@@ -3,7 +3,7 @@ package Basics;
 public class L1_DataTypes {
 
         public static void main(String[] args) {
-            // 🔹 PRIMITIVE DATA TYPES (8 types)
+            //  PRIMITIVE DATA TYPES (8 types)
 
             // 1. byte (1 byte = 8 bits, range: -128 to 127)
             byte b = 100;
@@ -46,12 +46,12 @@ public class L1_DataTypes {
             System.out.println("Array arr[1] = " + arr[1]);
 
 
-            // 🔹 DEFAULT VALUES (class-level only, not local)
+            //  DEFAULT VALUES (class-level only, not local)
             Defaults demo = new Defaults();
             demo.printDefaults();
 
 
-            // 🔹 TYPE CASTING
+            //  TYPE CASTING
 
             // Implicit (Widening) - small to large
             int x = 10;
@@ -64,7 +64,7 @@ public class L1_DataTypes {
             System.out.println("Explicit Casting (double to int): " + finalPrice);
 
 
-            // 🔹 EDGE CASE: overflow/underflow
+            //  EDGE CASE: overflow/underflow
             byte overflow = 127;
             overflow++;  // -128 due to overflow
             System.out.println("\nOverflow Example: " + overflow);

@@ -1,4 +1,4 @@
-package src.WEEK_8_OOP_java.Abstraction;// package src.WEEK_8_OOP_java.Abstraction;
+package WEEK_2_OOP_java.Abstraction;// package src.WEEK_8_OOP_java.Abstraction;
 
 
 // An abstract class whose object can't be created 

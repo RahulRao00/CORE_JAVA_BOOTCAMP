@@ -1,4 +1,6 @@
- class Plane1 {
+package WEEK_2_OOP_java.Polymorphism;
+
+class Plane1 {
 
     void takeOff() {
         System.out.println("Plane is taking off.... ");
@@ -62,7 +64,7 @@ class FighterPlane1 extends Plane1 {
 
 
         // Array of parent references pointing to child objects
-        Plane1 planes[] = {
+        Plane1[] planes = {
                 new CargoPlane1(),
                 new FighterPlane1(),
                 new PassengerPlane1()

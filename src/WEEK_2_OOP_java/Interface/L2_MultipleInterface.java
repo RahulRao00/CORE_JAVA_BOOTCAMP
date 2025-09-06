@@ -1,3 +1,4 @@
+package WEEK_2_OOP_java.Interface;
 
 // A class can implements as many number of interfaces because 
 // interfaces don't have any parent interface like object class 

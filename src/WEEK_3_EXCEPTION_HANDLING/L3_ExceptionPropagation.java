@@ -48,7 +48,7 @@ class Demo2 extends Exam1 {
 
         } catch (Exception e) {
 
-            System.out.println("");
+            System.out.println(" ");
 
         }
 

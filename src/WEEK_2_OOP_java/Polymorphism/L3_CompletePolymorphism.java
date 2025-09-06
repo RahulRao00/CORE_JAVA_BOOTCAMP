@@ -1,4 +1,4 @@
-package src.WEEK_8_OOP_java.Polymorphism;
+package WEEK_2_OOP_java.Polymorphism;
 
 
 class Plane0 {

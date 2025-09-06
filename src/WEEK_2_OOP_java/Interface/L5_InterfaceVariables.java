@@ -1,8 +1,7 @@
+package WEEK_2_OOP_java.Interface;
 
 // An interface have any number of constant variable but all variables are 
-// public , abstract , final by default 
-
-
+// public , abstract , final by default
 // Empty interface called as Marker interface 
 
 interface  MuInterface {

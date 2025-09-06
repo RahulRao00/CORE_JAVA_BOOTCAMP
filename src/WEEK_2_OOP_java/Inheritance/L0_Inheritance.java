@@ -1,4 +1,4 @@
-package src.WEEK_8_OOP_java.Inheritance;
+package WEEK_2_OOP_java.Inheritance;
 
 // we can achieve inheritance using extends keyword and abstract the properties of the parent class into child class
 // The class which inherits the properties of another class is called the child class or subclass.

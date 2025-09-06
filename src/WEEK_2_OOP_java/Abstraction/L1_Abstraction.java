@@ -1,3 +1,5 @@
+package WEEK_2_OOP_java.Abstraction;
+
 import java.util.Scanner;
 
 // Inside a class if a single method is abstract declare class as abstract 
@@ -60,7 +62,7 @@ class Circle extends Shape {
 
     void acceptInput() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the redius of square : ");
+        System.out.print("Enter the radius of square : ");
         radius = sc.nextFloat();
     }
 

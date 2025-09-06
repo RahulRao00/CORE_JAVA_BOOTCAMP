@@ -1,4 +1,4 @@
-
+package WEEK_2_OOP_java.Interface;
 // Interface is collection of the pure abstract methods 
 // by default inside an interface all the methods are public and abstract 
 // Interface -> An interface is a contract or blueprint for classes. 

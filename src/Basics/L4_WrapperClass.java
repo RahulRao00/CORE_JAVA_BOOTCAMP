@@ -4,14 +4,14 @@ public class L4_WrapperClass {
 
         public static void main(String[] args) {
 
-            // 🔹 1. WRAPPER CLASSES INTRO
+            //  1. WRAPPER CLASSES INTRO
             // Every primitive has a corresponding Wrapper class (in java.lang)
             int a = 10;
             Integer intObj = a;   // Manual boxing
             System.out.println("Integer Object: " + intObj);
 
 
-            // 🔹 2. AUTOBOXING (Primitive ➜ Object)
+            //  2. AUTOBOXING (Primitive ➜ Object)
             Integer x = 100; // int ➜ Integer
             Double y = 99.99; // double ➜ Double
             Boolean flag = true; // boolean ➜ Boolean
@@ -22,7 +22,7 @@ public class L4_WrapperClass {
             System.out.println("Boolean flag = " + flag);
 
 
-            // 🔹 3. UNBOXING (Object ➜ Primitive)
+            //  3. UNBOXING (Object ➜ Primitive)
             int x1 = x;  // Integer ➜ int
             double y1 = y; // Double ➜ double
 
@@ -31,7 +31,7 @@ public class L4_WrapperClass {
             System.out.println("double y1 = " + y1);
 
 
-            // 🔹 4. COMMON METHODS OF WRAPPER CLASSES
+            //  4. COMMON METHODS OF WRAPPER CLASSES
             String numStr = "123";
             int parsed = Integer.parseInt(numStr); // String to int
             System.out.println("\nParsed String to int: " + parsed);
@@ -43,7 +43,7 @@ public class L4_WrapperClass {
             System.out.println("Integer MIN: " + Integer.MIN_VALUE + " MAX: " + Integer.MAX_VALUE);
 
 
-            // 🔹 5. COMPARISON: `==` vs `.equals()`
+            //  5. COMPARISON: `==` vs `.equals()`
             Integer i1 = 128;
             Integer i2 = 128;
 
@@ -57,7 +57,7 @@ public class L4_WrapperClass {
             System.out.println("i3.equals(i4): " + i3.equals(i4)); // true
 
 
-            // 🔹 6. EDGE CASE: NullPointerException in unboxing
+            //  6. EDGE CASE: NullPointerException in unboxing
             Integer nullObj = null;
             try {
                 int risky = nullObj; // will throw NullPointerException
@@ -65,7 +65,7 @@ public class L4_WrapperClass {
                 System.out.println("\n⚠️ NullPointerException caught during unboxing from null");
             }
 
-            // 🔹 7. Conversion to other bases
+            //  7. Conversion to other bases
             int num = 255;
             System.out.println("\nNumber conversions:");
             System.out.println("Binary: " + Integer.toBinaryString(num));

@@ -1,4 +1,4 @@
-package src.WEEK_8_OOP_java.Inheritance;// package src.WEEK_8_OOP_java.Inheritance;
+package WEEK_2_OOP_java.Inheritance;// package src.WEEK_8_OOP_java.Inheritance;
 // Multiple inheritance in not allowed 
 
 class Demo_3 {
