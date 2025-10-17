@@ -1,4 +1,4 @@
-package src.WEEK_8_OOP_java.Encapsulation;
+package WEEK_2_OOP_java.Encapsulation;
 import java.util.Scanner;
 
 class BusinessMen {
@@ -9,7 +9,7 @@ class BusinessMen {
     private float si;
     static private float r;
 
-    static {
+    static {   // because this will be same
         r = 12.5f;
     }
 
@@ -22,14 +22,13 @@ class BusinessMen {
     }
 
     public void calcInterest() {
-        si = (p*t*r) / 100;
+        si = ( p * t * r ) / 100;
     }
 
     public void display() {
         System.out.println(si);
     }
 }
-
 
 
 public class L5_Static {

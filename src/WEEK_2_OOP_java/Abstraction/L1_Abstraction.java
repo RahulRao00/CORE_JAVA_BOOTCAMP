@@ -53,7 +53,6 @@ class Rectangle extends Shape {
     void calcArea() {
         area = length * breadth;
     }
-
 }
 
 class Circle extends Shape {
@@ -93,6 +92,7 @@ public class L1_Abstraction {
         g.permit(sq);
         g.permit(re);
         g.permit(ci);
-       
+
+
     }
 }

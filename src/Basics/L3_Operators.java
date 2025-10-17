@@ -6,7 +6,7 @@ public class L3_Operators {
         // ============================
         //  1. Arithmetic Operators
         // ============================
-        System.out.println("=== Arithmetic Operators ===");
+        System.out.println(" Arithmetic Operators  ");
         int a = 10, b = 3;
 
         System.out.println("a + b = " + (a + b)); // 13
@@ -30,7 +30,7 @@ public class L3_Operators {
         // ============================
         //  2. Relational (Comparison) Operators
         // ============================
-        System.out.println("\n=== Relational Operators ===");
+        System.out.println("\n  Relational Operators ");
         int p = 5, q = 10;
 
         System.out.println("p == q: " + (p == q)); // false
@@ -47,7 +47,7 @@ public class L3_Operators {
         // ============================
         //  3. Logical Operators
         // ============================
-        System.out.println("\n=== Logical Operators ===");
+        System.out.println("\n  Logical Operators ");
         boolean x = true, y = false;
 
         System.out.println("x && y: " + (x && y)); // false
@@ -62,7 +62,7 @@ public class L3_Operators {
         // ============================
         // 4. Bitwise Operators
         // ============================
-        System.out.println("\n=== Bitwise Operators ===");
+        System.out.println("\n  Bitwise Operators ");
         int m = 5;  // 0101
         int n = 3;  // 0011
 
@@ -74,7 +74,7 @@ public class L3_Operators {
         // ============================
         // 5. Assignment Operators
         // ============================
-        System.out.println("\n=== Assignment Operators ===");
+        System.out.println("\n  Assignment Operators  ");
         int val = 10;
         val += 5; // val = val + 5
         System.out.println("val += 5: " + val); // 15
@@ -87,7 +87,7 @@ public class L3_Operators {
         // ============================
         //  6. Unary Operators
         // ============================
-        System.out.println("\n=== Unary Operators ===");
+        System.out.println("\n  Unary Operators ");
         int u = 10;
         System.out.println("u++ = " + (u++)); // 10 (then u becomes 11)
         System.out.println("++u = " + (++u)); // 12
@@ -99,7 +99,7 @@ public class L3_Operators {
         // ============================
         //  7. Ternary Operator
         // ============================
-        System.out.println("\n=== Ternary Operator ===");
+        System.out.println("\n  Ternary Operator ");
         int age = 18;
         String result = (age >= 18) ? "Adult" : "Minor";
         System.out.println("Result: " + result);
@@ -112,7 +112,7 @@ public class L3_Operators {
         // ============================
         //  8. instanceof Operator
         // ============================
-        System.out.println("\n=== instanceof Operator ===");
+        System.out.println("\n instanceof Operator ");
         String s = "Rahul";
         System.out.println("s instanceof String: " + (s instanceof String)); // true
 
@@ -122,7 +122,7 @@ public class L3_Operators {
         // ============================
         //  9. Shift Operators
         // ============================
-        System.out.println("\n=== Shift Operators ===");
+        System.out.println("\n Shift Operators ");
         int num = 8; // 1000
         System.out.println("num << 1 = " + (num << 1)); // 16 (adds zero to right)
         System.out.println("num >> 1 = " + (num >> 1)); // 4 (drops last bit)

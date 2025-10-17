@@ -1,6 +1,7 @@
 package WEEK_2_OOP_java.Inheritance;
 
 class Parent0 {
+
     void print() {
         System.out.println("This is parent class");
     }

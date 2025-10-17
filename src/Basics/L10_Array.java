@@ -6,22 +6,19 @@ public class L10_Array {
         public static void main(String[] args) {
 
 
-
             //  1. DECLARING AND INITIALIZING 1D ARRAY
             int[] numbers = {10, 20, 30, 40, 50};
 
-            System.out.println("1D Array (for loop):");
             for (int i = 0; i < numbers.length; i++) {
                 System.out.println("Element at index " + i + ": " + numbers[i]);
             }
 
-            System.out.println("\n1D Array (for-each loop):");
             for (int num : numbers) {
                 System.out.println("Value: " + num);
             }
 
             //  2. DYNAMIC ARRAY CREATION
-            int[] arr = new int[5]; // default 0s
+            int[] arr = new int[5]; // default 0's
             arr[0] = 99;
             arr[1] = 100;
 
@@ -66,9 +63,9 @@ public class L10_Array {
 
             //  6. EDGE CASE: OUT OF BOUNDS
             try {
-                int val = data[10]; // ⚠️ will throw exception
+                int val = data[10]; //  will throw exception
             } catch (ArrayIndexOutOfBoundsException e) {
-                System.out.println("\n❌ Exception: " + e);
+                System.out.println("\n Exception: " + e);
             }
 
             //  7. DEFAULT VALUES

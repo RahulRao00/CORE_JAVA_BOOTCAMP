@@ -6,8 +6,7 @@ import java.time.format.DateTimeFormatter;
 public class L13_Date {
         public static void main(String[] args) {
 
-
-            System.out.println("🕒 MODERN DATE API (Java 8+)\n");
+            System.out.println(" MODERN DATE API (Java 8+)\n");
 
             // 1. Current date and time
             LocalDate today = LocalDate.now();

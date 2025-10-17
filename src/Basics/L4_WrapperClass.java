@@ -4,7 +4,7 @@ public class L4_WrapperClass {
 
         public static void main(String[] args) {
 
-            //  1. WRAPPER CLASSES INTRO
+            //  1. WRAPPER CLASSES
             // Every primitive has a corresponding Wrapper class (in java.lang)
             int a = 10;
             Integer intObj = a;   // Manual boxing

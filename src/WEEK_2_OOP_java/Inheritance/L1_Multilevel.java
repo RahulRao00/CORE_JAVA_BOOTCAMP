@@ -1,5 +1,7 @@
 package WEEK_2_OOP_java.Inheritance;
 
+// Example of Multiple Inheritance
+
 class Demo1 {
     void fun1() {
         System.out.println("JAVA");

@@ -10,7 +10,9 @@ public class L0_BasicException {
         int value;
         int n;
 
-        // handling exception using normal try-catch block 
+        // handling exception using normal try-catch block
+        // try block having the part which may through error
+        // catch block will handle the react if any exception occurs
         try {
 
             System.out.print("Enter integer value : ");

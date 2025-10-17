@@ -4,10 +4,12 @@ public class L2_Variables {
 
     // 2. Static Variable (shared by all instances)
     static String staticVar = "I am static";
+
     // 1. Instance Variable (defined inside class, outside methods)
     int instanceVar = 50;
 
     public static void main(String[] args) {
+
         // 3. Local Variable (defined inside method)
         int localVar = 100;
         System.out.println("Local Variable: " + localVar);
@@ -39,20 +41,10 @@ public class L2_Variables {
         System.out.println("char: " + c);
         System.out.println("boolean: " + bool);
 
-        // 5. Variable Naming Rules
-        int ₹money = 500;  // valid (since ₹ is a valid Unicode character)
-        int _hidden = 1;   // valid
-        int $dollar = 2;   // valid
-        // int 1num = 3;   // ❌ invalid: can't start with number
 
-        System.out.println("\n--- Naming Rules ---");
-        System.out.println("₹money: " + ₹money);
-        System.out.println("_hidden: " + _hidden);
-        System.out.println("$dollar: " + $dollar);
-
-        // 6. Edge Case: Use without initialization
+        //  Edge Case: Use without initialization
         int uninitialized;
-        // System.out.println(uninitialized);  // ❌ Compile Error: variable might not have been initialized
+        // System.out.println(uninitialized);  //  Compile Error: variable might not have been initialized
     }
 
     // Example of accessing static and instance variables from a method

@@ -38,7 +38,7 @@ public class L1_DataTypes {
             System.out.println("boolean flag = " + flag);
 
 
-            // 🔹 NON-PRIMITIVE (Reference Types)
+            //  NON-PRIMITIVE (Reference Types)
             String str = "Java is awesome!";
             int[] arr = {1, 2, 3};
             System.out.println("\nNon-Primitive Types:");

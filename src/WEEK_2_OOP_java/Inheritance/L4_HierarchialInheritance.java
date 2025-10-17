@@ -20,7 +20,7 @@ class Demo__3 extends Demo__1 {
 }
 
 
-public class L4_HierarchialInh {
+public class L4_HierarchialInheritance  {
 
     public static void main(String[] args) {
         

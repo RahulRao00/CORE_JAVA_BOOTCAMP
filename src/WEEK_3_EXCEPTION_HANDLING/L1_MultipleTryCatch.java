@@ -9,8 +9,8 @@ public class L1_MultipleTryCatch {
         try {
 
             System.out.print("Enter the length of the array: ");
-            int n = sc.nextInt();
-            int arr[] = new int[n];
+            int n = sc.nextInt();   // here index(n) may be the invalid in case of array -> can generate kind of exception
+            int[] arr = new int[n];
 
             System.out.print("Enter the elements of the array :");
             for (int i = 0; i < n; i++) {
@@ -23,22 +23,20 @@ public class L1_MultipleTryCatch {
             System.out.print("Enter another value : ");
             int value = sc.nextInt();
 
-            int ans = arr[idx] / value;
+            int ans = arr[idx] / value;    // divide by zero may be happens
             System.out.println("After idx divide by value " + ans);
 
         } 
         catch (InputMismatchException e) {
-
             System.out.println("Invalid input " + e);
+
         } catch (ArrayIndexOutOfBoundsException e) {
-
             System.out.println("Invalid index " + e);
-        } catch (ArithmeticException e) {
 
+        } catch (ArithmeticException e) {
             System.out.println("Divide by Zero Exception : " + e);
 
-        } 
-        
+        }
         // This is general Exception if any Exception not handled 
         // then this default Exception will handle all the handles 
         catch (Exception e) {

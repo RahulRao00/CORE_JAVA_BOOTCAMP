@@ -42,10 +42,10 @@ public class L7_TypeCasting {
             System.out.println("byte + byte → int = " + sum);
 
             //  6. Upcasting and Downcasting with objects
-            Animal a1 = new Dog();       // Upcasting: Dog → Animal ✅
+            Animal a1 = new Dog();       // Upcasting: Dog → Animal
             a1.sound();
 
-            Dog d1 = (Dog) a1;           // Downcasting: Animal → Dog ✅
+            Dog d1 = (Dog) a1;           // Downcasting: Animal → Dog
             d1.bark();
 
             //  Edge Case: Invalid downcasting

@@ -1,4 +1,5 @@
 package WEEK_2_OOP_java.Interface;
+
 // Interface is collection of the pure abstract methods 
 // by default inside an interface all the methods are public and abstract 
 // Interface -> An interface is a contract or blueprint for classes. 
@@ -10,7 +11,7 @@ import java.util.Scanner;
 
 interface Calculator {
 
-   void add();
+   void add(); // only signature -> body will provided in the subClass
 
    void sub();
 
@@ -35,21 +36,28 @@ class Example1 implements Calculator {
 }
 
 class Example2 implements Calculator {
+
    public void add() {
       Scanner sc = new Scanner(System.in);
+
       System.out.print("Enter a: ");
       int a = sc.nextInt();
+
       System.out.print("Enter b: ");
       int b = sc.nextInt();
+
       System.out.println("Addition is : " + (a + b));
    }
 
    public void sub() {
       Scanner sc = new Scanner(System.in);
+
       System.out.print("Enter a: ");
       int a = sc.nextInt();
+
       System.out.print("Enter b: ");
       int b = sc.nextInt();
+
       System.out.println("Subtraction is : " + (a - b));
    }
 }

@@ -4,7 +4,7 @@ public class L12_Maths {
 
         public static void main(String[] args) {
 
-            System.out.println("📌 Basic Math Methods:\n");
+            System.out.println(" Basic Math Methods:\n");
 
             // 1. Absolute value
             System.out.println("Math.abs(-10) = " + Math.abs(-10)); // 10

@@ -8,14 +8,14 @@ import java.util.Scanner;
 class Exam1 {
 
     void fun1() {
-
         System.out.println("Connection Established ");
 
         try {
-
             Scanner sc = new Scanner(System.in);
+
             System.out.print("Enter value 1: ");
             int a = sc.nextInt();
+
             System.out.print("Enter value 2: ");
             int b = sc.nextInt();
 
@@ -24,7 +24,6 @@ class Exam1 {
             sc.close();
 
         } catch (Exception e) {
-
             System.out.println("Exception Handled in fun1() ! ");
 
         }
@@ -42,7 +41,6 @@ class Demo2 extends Exam1 {
         System.out.println("Connection 1 Established ");
 
         try {
-
             Exam1 d1 = new Exam1();
             d1.fun1();
 
