@@ -8,20 +8,27 @@ package WEEK_2_OOP_java.Abstraction;
 // means final class -> no change  and   abstract class  -> change must
 
 
-abstract  class Bird {
+abstract class Bird {
 
     final int val = 10 ;
     abstract void eat();
     abstract void fly();
+
 }
 
 
 abstract class Eagle extends Bird {
 
+    @Override
+    void eat() {
+        System.out.println(" ");
+    }
 
+    @Override
+    void fly() {
+        System.out.println("Eagle fly at high height ");
+    }
 }
-
-
 
 
 public class L4_FinalAbstract {

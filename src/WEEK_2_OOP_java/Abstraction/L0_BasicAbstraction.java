@@ -3,8 +3,8 @@ package WEEK_2_OOP_java.Abstraction;
 
 // An abstract class whose object can't be created 
 // if a single variable/Method  is abstract then java force you to make class abstract
-// even without any abstract method as well we can make the class as abstract
-// So that you can't create object of that class -> due to incomplete class
+// even without any abstract method as well we can make the class as an abstract class
+//  you can't create object of that class -> because abstract class may have incomplete methods
 // Because that particular abstract method is incomplete only signature is defined no implementation
 
 abstract class Plane {

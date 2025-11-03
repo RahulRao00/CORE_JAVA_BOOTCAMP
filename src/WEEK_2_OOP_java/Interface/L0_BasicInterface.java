@@ -22,6 +22,7 @@ class Example1 implements Calculator {
    int a;
    int b;
 
+   // during the body assign time method accessibility must be more or equal  eg. default -> public access modifier
    public void add() {
       a = 10;
       b = 20;

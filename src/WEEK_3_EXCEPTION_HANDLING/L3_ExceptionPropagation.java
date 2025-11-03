@@ -1,12 +1,11 @@
 package WEEK_3_EXCEPTION_HANDLING;
-
 import java.util.Scanner;
 
 // Here if we don't handle the exception then exception object will propagate
-// through all the method then finally in the main it will terminate the execution 
+// through all the methods then finally in the main() method it will terminate the execution
+//  These tracks of calls stored in the StackTrace -> methods stack
 
 class Exam1 {
-
     void fun1() {
         System.out.println("Connection Established ");
 
@@ -22,52 +21,39 @@ class Exam1 {
             int ans = a / b;
             System.out.println("ans is : " + ans);
             sc.close();
-
-        } catch (Exception e) {
+        } catch (Exception e) {  // here Exception in the Generalized for all diff-diff kind of exceptions -> super class -> Exception
             System.out.println("Exception Handled in fun1() ! ");
-
         }
-
         System.out.println("Connection is terminated ! ");
 
     }
-
 }
 
 class Demo2 extends Exam1 {
 
     void fun2() {
-
         System.out.println("Connection 1 Established ");
 
         try {
             Exam1 d1 = new Exam1();
             d1.fun1();
-
         } catch (Exception e) {
-
             System.out.println(" ");
-
         }
-
         System.out.println("Connection 1 Terminated ");
     }
-
 }
 
 class Demo3 extends Demo2 {
 
     void fun3() {
-
         System.out.println("Connection 2 Established  ");
 
         Demo2 d2 = new Demo2();
         d2.fun2();
 
         System.out.println("Connection 2 Terminated ");
-
     }
-
 }
 
 public class L3_ExceptionPropagation {
@@ -79,6 +65,5 @@ public class L3_ExceptionPropagation {
         d3.fun3();
 
     }
-
 }
 

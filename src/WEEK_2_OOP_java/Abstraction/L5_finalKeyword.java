@@ -1,7 +1,8 @@
 package WEEK_2_OOP_java.Abstraction;
-// final variable  value cant be changed 
+
+// final variable's  value can' t be changed
 // final method can be inherited but cant be changed 
-// if class is final the we cant inherit that class 
+// if class is final then we cant inherit that class
 
 final class Example {
 

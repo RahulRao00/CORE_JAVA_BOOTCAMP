@@ -1,23 +1,20 @@
 package WEEK_2_OOP_java.Polymorphism;
 
 class Plane1 {
-
     void takeOff() {
         System.out.println("Plane is taking off.... ");
     }
-
     void fly() {
         System.out.println("Plane is flying... ");
     }
-
     void land() {
         System.out.println("Plane is landing... ");
     }
-
 }
 
 class CargoPlane1 extends Plane1 {
 
+    @Override
     void fly() {
         System.out.println("Cargo is Flying at Low Height... ");
     }
@@ -29,6 +26,7 @@ class CargoPlane1 extends Plane1 {
 
 class PassengerPlane1 extends Plane1 {
 
+    @Override
     void fly() {
         System.out.println("Passenger fly at the Medium height... ");
     }
@@ -41,6 +39,7 @@ class PassengerPlane1 extends Plane1 {
 
 class FighterPlane1 extends Plane1 {
 
+    @Override
     void fly() {
         System.out.println("Fighter Planes fly at very high Height...");
 

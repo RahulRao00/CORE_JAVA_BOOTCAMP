@@ -10,6 +10,8 @@ class Parent {
     
 class L1_M_Overriding extends Parent {
 
+
+    @Override
     void show() {
         System.out.println("2"); // this overrides the parent method
     }

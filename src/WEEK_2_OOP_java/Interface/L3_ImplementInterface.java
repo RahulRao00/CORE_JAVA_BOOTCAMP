@@ -7,9 +7,13 @@ package WEEK_2_OOP_java.Interface;
 
 interface Interface1 {
 
+    void some() ;
 }
 
 interface Interface2 extends Interface1 {
+
+    @Override
+    void some();
 
 }
 
@@ -18,8 +22,12 @@ interface Interface3 extends Interface1 {
 }
 
 
-public class L3_ImplementInterface {
-    
+public class L3_ImplementInterface  {
 
+    public static void main(String[] args) {
+
+
+
+    }
 
 }

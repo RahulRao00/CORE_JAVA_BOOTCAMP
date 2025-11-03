@@ -11,10 +11,10 @@ interface  MuInterface {
     void fun();
 
 }
- 
-
 
 
 public class L5_InterfaceVariables {
-    
+    public static void main(String[] args) {
+
+    }
 }

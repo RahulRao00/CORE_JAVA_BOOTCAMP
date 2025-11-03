@@ -1,3 +1,4 @@
+package WEEK_2_OOP_java.Abstraction;
 
 // It have everything that a normal class contain 
 // only difference -> cant create objects 

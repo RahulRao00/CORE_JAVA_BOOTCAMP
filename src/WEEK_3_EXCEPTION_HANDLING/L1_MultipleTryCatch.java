@@ -1,5 +1,4 @@
 package WEEK_3_EXCEPTION_HANDLING;
-
 import java.util.*;
 
 public class L1_MultipleTryCatch {
@@ -9,7 +8,7 @@ public class L1_MultipleTryCatch {
         try {
 
             System.out.print("Enter the length of the array: ");
-            int n = sc.nextInt();   // here index(n) may be the invalid in case of array -> can generate kind of exception
+            int n = sc.nextInt();   // here index(n) may be the invalid in case of array -> can generate  exception
             int[] arr = new int[n];
 
             System.out.print("Enter the elements of the array :");

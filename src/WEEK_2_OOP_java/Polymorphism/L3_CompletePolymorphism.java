@@ -6,23 +6,20 @@ class Plane0 {
     void takeOff() {
         System.out.println("Plane is taking off.... ");
     }
-
     void fly() {
         System.out.println("Plane is flying... ");
     }
-
     void land() {
         System.out.println("Plane is landing... ");
     }
-
 }
 
 class CargoPlane0 extends Plane0 {
 
+    @Override
     void fly() {
         System.out.println("Cargo is Flying at Low Height... ");
     }
-
     void carryCargo() {
         System.out.println("CargoPlane is carrying cargos...");
     }
@@ -30,10 +27,10 @@ class CargoPlane0 extends Plane0 {
 
 class PassengerPlane0 extends Plane0 {
 
+    @Override
     void fly() {
         System.out.println("Passenger fly at the Medium height... ");
     }
-
     void carryPassenger() {
         System.out.println("PassengerPlane is  carrying Passenger....   ");
     }
@@ -42,11 +39,10 @@ class PassengerPlane0 extends Plane0 {
 
 class FighterPlane0 extends Plane0 {
 
+    @Override
     void fly() {
         System.out.println("Fighter Planes fly at very high Height...");
-
     }
-
     void carryWeapon() {
         System.out.println("Fighter Plane is carrying Weapons... ");
     }

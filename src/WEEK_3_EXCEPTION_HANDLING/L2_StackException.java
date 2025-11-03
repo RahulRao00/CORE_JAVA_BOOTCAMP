@@ -17,7 +17,6 @@ public class L2_StackException {
         
         Demo d = new Demo();
          d.fun();
-      
 
     }
 

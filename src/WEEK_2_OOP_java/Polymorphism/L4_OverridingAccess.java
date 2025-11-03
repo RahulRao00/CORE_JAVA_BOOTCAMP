@@ -9,7 +9,6 @@ class Parent1 {
     public void fun1() {
         System.out.println("Fun method inside Parent   ");
     }
-
 }
 
 class Child extends Parent1 {
