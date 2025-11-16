@@ -9,19 +9,19 @@
         -> Errors   -> Serious issues like memory leaks or JVM crashes (eg. OutOfMemoryError)
 
 ## Hierarchy of Exception  ##
-
-java.lang
-|-Object
-└── Throwable
-├── Exception
-│    ├── IOException (checked) -> by compile at compile time 
-│    ├── SQLException (checked)
-│    └── RuntimeException (unchecked) -> compiler cant handle these -> occur at the runtime -> at execution time 
-│         ├── NullPointerException
-│         ├── ArithmeticException
-│         └── ArrayIndexOutOfBoundsException
-└── Error
-└── OutOfMemoryError, StackOverflowError,
+1. 
+2. java.lang
+3. |-Object
+4. └── Throwable
+5. ├── Exception
+6. │    ├── IOException (checked) -> by compile at compile time 
+7. │    ├── SQLException (checked)
+8. │    └── RuntimeException (unchecked) -> compiler cant handle these -> occur at the runtime -> at execution time 
+9. │         ├── NullPointerException
+10. │         ├── ArithmeticException
+11. │         └── ArrayIndexOutOfBoundsException
+12. └── Error
+13. └── OutOfMemoryError, StackOverflowError,
  
 
 
@@ -34,7 +34,7 @@ java.lang
 ## Unchecked Exception -> 
     -> An exception that occurs at the time of execution.These are also called as Runtime Exceptions. 
        These include -> such as logic errors or improper use of an API. Runtime exceptions are ignored at the time of compilation.
-        -> eg. declared an array of size 5, and trying to call the 6th element then an ArrayIndexOutOfBoundsExceptionexception occurs.
+     -> eg. declared an array of size 5, and trying to call the 6th element then an ArrayIndexOutOfBoundsExceptionexception occurs.
 
 
 ## ERRORS ##  

@@ -23,7 +23,6 @@ class MyCalculator1 implements Calculator0 {
 }
 
 
-
 public class L1_InterfaceSpecialized {
     
     public static void main(String[] args) {
