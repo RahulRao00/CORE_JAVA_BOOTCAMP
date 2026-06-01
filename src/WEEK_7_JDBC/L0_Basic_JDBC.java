@@ -4,7 +4,7 @@ public class L0_Basic_JDBC {
 
     public static void main(String[] args) {
 
-        System.out.println(" ");
+        System.out.println("This is jdbc repo ");
 
     }
 
