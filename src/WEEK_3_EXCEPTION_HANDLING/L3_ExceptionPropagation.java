@@ -38,7 +38,7 @@ class Demo2 extends Exam1 {
             Exam1 d1 = new Exam1();
             d1.fun1();
         } catch (Exception e) {
-            System.out.println(" ");
+            System.out.println(". ");
         }
         System.out.println("Connection 1 Terminated ");
     }

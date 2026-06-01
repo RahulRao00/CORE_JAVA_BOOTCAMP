@@ -1,5 +1,6 @@
-   
-   class Student {
+package WEEK_2_OOP_java.ClassesObject;
+
+class Student {
         String name;
         int roll;
 

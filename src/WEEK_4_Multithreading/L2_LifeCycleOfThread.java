@@ -6,6 +6,7 @@ class My_Thread extends Thread {
     public void run() {
 
         try {
+            System.out.println(Thread.currentThread().getName() + " Priority " + Thread.currentThread().getPriority());
             Thread.sleep(5000);  // -> thread will sleep for 5 sec
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
@@ -22,14 +23,14 @@ public class L2_LifeCycleOfThread {
         System.out.println(thread.getState());
 
         thread.start();   // RUNNABLE or RUNNING STATE
-        System.out.println( thread.getState());
+        System.out.println(thread.getState());
 
-        thread.join();   // through this main method will wait until the thread will execute
+        thread.join();   // through this main method will wait until the thread will finish their execution
         for (int i = 0; i < 10; i++) {
             System.out.println("this is another thread is running ");
         }
 
-        thread.sleep(1000);
+        Thread.sleep(1000);
         System.out.println(thread.getState());
 
     }

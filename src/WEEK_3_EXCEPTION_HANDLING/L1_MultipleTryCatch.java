@@ -22,10 +22,10 @@ public class L1_MultipleTryCatch {
             System.out.print("Enter another value : ");
             int value = sc.nextInt();
 
-            int ans = arr[idx] / value;    // divide by zero may be happens
+            int ans = arr[idx] / value;    // divide by zero may be happened
             System.out.println("After idx divide by value " + ans);
 
-        } 
+        }
         catch (InputMismatchException e) {
             System.out.println("Invalid input " + e);
 

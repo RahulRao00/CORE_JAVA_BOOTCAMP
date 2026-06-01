@@ -6,15 +6,15 @@ public class L5_Conditionals {
             // 🔹 Simple IF
             int age = 25;
             if (age >= 18) {
-                System.out.println("✅ Eligible for voting.");
+                System.out.println(" Eligible for voting.");
             }
 
             //  IF-ELSE
             boolean isIndian = true;
             if (isIndian) {
-                System.out.println("✅ Indian citizen.");
+                System.out.println(" Indian citizen.");
             } else {
-                System.out.println("❌ Not an Indian citizen.");
+                System.out.println(" Not an Indian citizen.");
             }
 
             //  IF-ELSE-IF
@@ -35,12 +35,12 @@ public class L5_Conditionals {
 
             if (hasID) {
                 if (voteAge >= 18) {
-                    System.out.println("✅ Can vote.");
+                    System.out.println(" Can vote.");
                 } else {
-                    System.out.println("❌ Age below 18.");
+                    System.out.println(" Age below 18.");
                 }
             } else {
-                System.out.println("❌ No valid ID.");
+                System.out.println(" No valid ID.");
             }
 
             //  SWITCH CASE

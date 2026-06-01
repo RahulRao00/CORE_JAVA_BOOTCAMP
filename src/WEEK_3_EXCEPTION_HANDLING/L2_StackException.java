@@ -10,7 +10,6 @@ class Demo {
     }
 }
 
-
 public class L2_StackException {
 
     public static void main(String[] args) {

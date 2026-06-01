@@ -9,7 +9,7 @@
 A Class extends Thread and override its run() method to define the task. 
 Then, we make an object of this class and call start(),-> jvm automatically calls run() and begins the thread’s execution.
 We wrote all the code to be executed in the overridden method 
-
+ 
 ## Implementing the Runnable Interface
 create a new class which implements java.lang.Runnable interface and override the run() method in it .
 Then we instantiate a Thread object and call start() method through this object
@@ -26,10 +26,10 @@ Then we instantiate a Thread object and call start() method through this object
     -> WAITING STATE   -> if a thread is calling or waiting for the other thread to be executed 
     -> TERMINATED STATE  -> thread completed 
 
-run() -> overridden method by the implemented class 
+run() -> overridden method, this contains the logic that what will going to execute on different thread
 start() -> jvm call the overridden run() of the thread  
 sleep() -> thread will sleep/wait 
 join() -> through this main method will wait until the thread will complete 
-setPriority() -> 
+setPriority() ->  this is used to set the priority to the thread like which one going to execute 
 
 

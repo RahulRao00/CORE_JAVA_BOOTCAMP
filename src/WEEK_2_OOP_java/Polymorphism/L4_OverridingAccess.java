@@ -1,7 +1,7 @@
 package WEEK_2_OOP_java.Polymorphism;// package src.WEEK_8_OOP_java.Polymorphism;
 
 // overriding the parent method only if child,s access modifier is same/more accessibility 
-// Return type must be same a the parent method 
+// Return type must be same as the parent method
 // if return type different must be Co-variant-> IS-A relationship is must be there 
 
 class Parent1 {
